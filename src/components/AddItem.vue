@@ -49,13 +49,13 @@ export default {
 <style scoped>
 p>span {
   display: inline-block;
-  font-size: 12px;
+  font-size: 16px;
   color: #42b983;
   cursor: pointer;
   /*margin-left: 5px;*/
   /*margin: 20px 0;*/
   position: absolute;
-  bottom: 32px;
+  bottom: 60px;
   margin-left: 2px;
   /*border: 1px solid red;*/
 }
@@ -63,7 +63,7 @@ p>span.add-item {
   text-decoration: underline;
 }
 p>span.add-item:hover {
-  font-size: 14px;
+  font-size: 16px;
   /*color: orange;*/
   margin-bottom: 0;
   font-weight: bold;
@@ -73,18 +73,18 @@ p>span.add-item:hover {
 p span.editing input {
   border: 1px solid #42b983;
   outline: none;
-  padding: 3px;
-  font-size: 12px;
+  padding: 5px;
+  font-size: 16px;
   border-radius: 2px;
   /*border: none;*/
-  width: 300px;
+  width: 400px;
 }
 p span.editing button {
   border-radius: 2px;
   border: none;
   background-color: #42b983;
-  padding: 3px;
-  font-size: 12px;
+  padding: 5px;
+  font-size: 16px;
   cursor: pointer;
   outline: none;
   
